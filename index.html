@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Homework</title>
+  </head>
+  <body>
+    <h2 class="section-title">Завдання 1</h2>
+    <section>
+      <form>
+        <table>
+          <tr>
+            <th>Інтерес</th>
+            <th>Опис</th>
+            <th>Рівень зацікавленості</th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="interest1"
+                placeholder="Введіть інтерес"
+              />
+            </td>
+            <td>
+              <input
+                class="input-form"
+                type="text"
+                name="description1"
+                placeholder="Введіть опис"
+              />
+            </td>
+            <td><input type="number" name="level1" min="1" max="5" /></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="interest2"
+                placeholder="Введіть інтерес"
+              />
+            </td>
+            <td>
+              <input
+                class="input-form"
+                type="text"
+                name="description2"
+                placeholder="Введіть опис"
+              />
+            </td>
+            <td><input type="number" name="level2" min="1" max="5" /></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="interest3"
+                placeholder="Введіть інтерес"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                class="input-form"
+                name="description3"
+                placeholder="Введіть опис"
+              />
+            </td>
+            <td><input type="number" name="level3" min="1" max="5" /></td>
+          </tr>
+        </table>
+        <input type="submit" value="Зберегти" />
+        <input type="reset" value="Скинути" />
+      </form>
+    </section>
+    <h2 class="section-title">Завдання 2</h2>
+    <section>
+      <form>
+        <fieldset>
+          <legend>Форма опитування</legend>
+
+          <label for="favorite-snack">Яка ваша улюблена закуска?</label>
+          <select id="favorite-snack" name="favorite-snack">
+            <option value="chocolate-bar">Шоколадний батончик</option>
+            <option value="ice-cream">Морозиво</option>
+            <option value="cookies">Печиво</option>
+          </select>
+
+          <label>Виберіть свій улюблений музичний жанр:</label>
+          <label for="pop">
+            <input type="radio" name="music-genre" value="pop" /> Поп
+          </label>
+          <label for="rock">
+            <input type="radio" name="music-genre" value="rock" />
+            Рок
+          </label>
+          <label for="jazz">
+            <input type="radio" name="music-genre" value="jazz" />
+            Джаз
+          </label>
+
+          <label>Чим ти захоплюєшся?</label>
+          <label for="reading">
+            <input type="checkbox" name="hobbies" value="reading" />
+            Читання
+          </label>
+          <label for="sports">
+            <input type="checkbox" id="sports" name="hobbies" value="sports" />
+            Спорт
+          </label>
+          <label for="painting">
+            <input type="checkbox" name="hobbies" value="painting" />
+            Програмування
+          </label>
+
+          <label for="impressions">Які ваші враження від вивчення HTML?</label>
+          <input type="text" id="impressions" name="impressions" />
+
+          <label>
+            <input type="checkbox" name="send-results" value="yes" />
+            Так, надішліть мені результати
+          </label>
+
+          <input type="submit" value="Відправити" />
+          <input type="reset" value="Скинути" />
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
